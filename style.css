@@ -1,0 +1,129 @@
+body {
+  font-size: 14px;
+  line-height: 1.6;
+  background: #f4F3F1;
+  color: #434d20;
+}
+ 
+h1 { 
+    font-size: 28px; 
+    font-family:Luminari, fantasy;
+}
+h2 { 
+    font-size: 22px;
+    font-family:Luminari, fantasy; 
+}
+h3 { 
+    font-size: 18px;
+    font-family:Luminari, fantasy; 
+}
+p {
+    font-family: Luminari, fantasy;
+}
+.site-navbar { 
+    background: #e9839D;
+    font-family: Luminari, fantasy; 
+}
+
+.nav-link { 
+    background: #9FA881;
+    color:#F4F3F1;
+    margin: 0 8px;
+}
+ 
+.section-block { padding-top: 16px; padding-bottom: 16px; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  color:#F4F3F1;
+}
+.box {
+  width: 100%;
+  padding: 24px;
+  background: #9FA881;
+  text-align: center;
+}
+
+.img {
+    width:60%;
+    height:auto;
+}
+ 
+.grid-box {
+  padding: 24px;
+  background: #F1CFE1;
+  text-align: center;
+}
+
+.project-card { 
+    padding: 4px; 
+    background:#9FA881;
+    color:#F4F3F1;
+}
+
+.sidebar {
+  padding: 16px;
+  background: #F1CFE1;
+  border-radius: 8px;
+}
+.hide-on-mobile { display: none; }
+ 
+.site-footer {
+  margin-top: 16px;
+  padding: 12px 0;
+  background: #e9839D;
+  color: #ffffff;
+  text-align: center;
+}
+.site-footer p { margin: 0; }
+
+@media (min-width: 768px) {
+  body { font-size: 17px; }
+ 
+  h1 { 
+    font-size: 40px; 
+    font-family:Luminari, fantasy;
+    }
+  h2 { 
+    font-size: 30px; 
+    font-family:Luminari, fantasy;}
+  h3 { 
+    font-size: 22px; 
+    font-family:Luminari, fantasy;
+}
+ 
+  .section-block { padding-top: 28px; padding-bottom: 28px; }
+
+  .boxes { gap: 16px; }
+  .box { width: calc(50% - 8px); }
+ 
+  .sidebar { padding: 24px; }
+  .hide-on-mobile { display: block; }
+  .site-footer { padding: 16px 0; }
+}
+
+@media (min-width: 992px) {
+  body { font-size: 20px; }
+ 
+  h1 { 
+    font-size: 56px; 
+    font-family:Luminari, fantasy;
+    }
+  h2 { 
+    font-size: 38px; 
+    font-family:Luminari, fantasy;}
+  h3 { 
+    font-size: 26px; 
+    font-family:Luminari, fantasy;
+    }
+ 
+  .section-block { padding-top: 40px; padding-bottom: 40px; }
+
+  .boxes { gap: 20px; }
+  .box { width: calc(33.333% - 14px); }
+ 
+  .sidebar { padding: 32px; }
+  .site-footer { padding: 24px 0; }
+}
